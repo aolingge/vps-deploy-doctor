@@ -10,6 +10,6 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
       - name: Validate shell scripts
         run: bash test/validate.sh
