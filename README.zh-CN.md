@@ -26,6 +26,19 @@
 
 ---
 
+<table>
+  <tr>
+    <td width="25%" valign="top"><b>默认安全</b><br />不重启服务、不改防火墙、不写配置。</td>
+    <td width="25%" valign="top"><b>定位层级</b><br />区分 Nginx、systemd、端口、防火墙、Docker、HTTP 问题。</td>
+    <td width="25%" valign="top"><b>给下一条命令</b><br />直接提示下一步该看哪条日志。</td>
+    <td width="25%" valign="top"><b>可脚本化输出</b><br />JSON lines 适合 CI、支持脚本和实验记录。</td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="assets/diagnosis-preview.svg" alt="VPS deployment diagnosis preview with pass warn and fail checks" width="92%" />
+</p>
+
 ## 为什么做这个项目
 
 学生项目上线后出现 `502`、`404` 或者完全打不开，通常是下面几个问题之一：

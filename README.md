@@ -26,6 +26,19 @@
 
 ---
 
+<table>
+  <tr>
+    <td width="25%" valign="top"><b>Safe by default</b><br />No restarts, no firewall edits, no config writes.</td>
+    <td width="25%" valign="top"><b>Find the layer</b><br />Separate Nginx, systemd, port, firewall, Docker, and HTTP issues.</td>
+    <td width="25%" valign="top"><b>Get the next command</b><br />Print the log command users should run next.</td>
+    <td width="25%" valign="top"><b>Scriptable output</b><br />Use JSON lines in CI, support scripts, or lab notes.</td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="assets/diagnosis-preview.svg" alt="VPS deployment diagnosis preview with pass warn and fail checks" width="92%" />
+</p>
+
 ## Why This Exists
 
 When a student project goes online and returns `502`, `404`, or nothing at all, the problem is usually one of five things:
