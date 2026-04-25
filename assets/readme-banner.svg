@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-label="VPS Deploy Doctor banner">
+  <rect width="1280" height="380" rx="28" fill="#101820"/>
+  <path d="M0 288c176-42 322-42 438-2 161 55 322 48 484 3 126-35 246-38 358-10v101H0Z" fill="#38bdf8" opacity=".13"/>
+  <rect x="76" y="58" width="610" height="264" rx="20" fill="#f8fafc"/>
+  <rect x="76" y="58" width="610" height="52" rx="20" fill="#0f172a"/>
+  <circle cx="106" cy="84" r="7" fill="#ef4444"/>
+  <circle cx="130" cy="84" r="7" fill="#f59e0b"/>
+  <circle cx="154" cy="84" r="7" fill="#22c55e"/>
+  <text x="112" y="150" font-family="Consolas, Menlo, monospace" font-size="23" fill="#0f172a" font-weight="700">$ vps-deploy-doctor --service demo-api</text>
+  <text x="112" y="194" font-family="Consolas, Menlo, monospace" font-size="21" fill="#16a34a">PASS nginx       nginx -t passed</text>
+  <text x="112" y="232" font-family="Consolas, Menlo, monospace" font-size="21" fill="#16a34a">PASS systemd     demo-api active</text>
+  <text x="112" y="270" font-family="Consolas, Menlo, monospace" font-size="21" fill="#dc2626">FAIL http        returned 502</text>
+  <text x="744" y="132" font-family="Inter, Arial, sans-serif" font-size="52" fill="#f8fafc" font-weight="800">VPS Deploy Doctor</text>
+  <text x="748" y="186" font-family="Inter, Arial, sans-serif" font-size="24" fill="#cbd5e1">Read-only checks for Nginx,</text>
+  <text x="748" y="218" font-family="Inter, Arial, sans-serif" font-size="24" fill="#cbd5e1">systemd, ports, Docker, and logs.</text>
+  <rect x="748" y="264" width="190" height="42" rx="21" fill="#38bdf8"/>
+  <text x="776" y="292" font-family="Inter, Arial, sans-serif" font-size="18" fill="#082f49" font-weight="800">safe by default</text>
+</svg>
